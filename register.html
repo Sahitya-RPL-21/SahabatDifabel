@@ -1,20 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Akun</title>
+<style>
+.h1{
+    text-align: center;
+}
+p {
+  text-align: center;
+} 
+.input {
+  text-align: center;
+}
+</style>
+<title>Page Title</title>
 </head>
 <body>
-    <b>Login Akun</b>
-    <hr>
-    <form>
-	<label>Alamat email: </label><br>
-	<input type="email" value="yangpasti@gmail.com"><br>
-	<label>Password: </label><br>
-	<input type="password" value="hayokenapadiinspect"><br>
-        <button type="submit">Submit</button>
-    </form>
+
+<div class="h1">
+    <h1>Registrasi Akun SahabatDifabel</h1>
+</div>
+
+<p>Nama Lengkap.</p>
+<div class="input">
+    <input type="text" name="name" placeholder = "john doe">
+</div>
+
+<p>Alamat.</p>
+<div class="input">
+    <input type="text" name="address" placeholder = "john doe">
+</div>
+
+<p>Nomor Telepon.</p>
+<div class="input">
+    <input type="tel" name="phone" placeholder="082363462437">
+</div>
+
+<p>Tanggal Lahir.</p>
+<div class="input">
+    <input type="date" name="date" placeholder="2002/11/11">
+</div>
+
+<p>Alamat e-mail.</p>
+<div class="input">
+    <input type="email" name="email" minlength="4" placeholder="example@test.com" class="input-field" autocomplete="off" required/>
+</div>
+
+<p>Password.</p>
+<div class="input">
+    <input type="password" name="password" minlength="8" placeholder="••••••••" class="input-field" autocomplete="off" required/>
+</div>
+
+<p>Confirmed Password.</p>
+<div class="input">
+    <input type="password" name="confirmpassword" minlength="8" placeholder="••••••••" class="input-field" autocomplete="off" required/>
+</div>
+<p></p>
+
+<div class="input">
+    <button> Registrasi </button>
+</div>
+
 </body>
 </html>

@@ -4,22 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #C6FAD6;
+        }
+        form {
+            border-radius: 15px 50px 30px 5px;
+            background-color: #FFFFD3;
+            background-size: 10%;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            width: 600px;
+            border-radius: 5%;
+            height: 800px;
+        }
+        .h1{
+            text-align: center;
+        }
+        .p {
+            text-align: center;
+            font-family: verdana;
+            font-size: 20px;
+        } 
+        .input {
+            outline: none;
+            border: 0;
+            text-align: center;
+        }
+        .label {
+            text-align: center;
+            font-family: verdana;
+            font-size: 20px;
+        }
+        .button {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        </style>
     <title>Edit Laporan</title>
 </head>
-<body>
-    <b>Create Laporan</b>
-    <hr>
-    <form>
-        <label>Nama: </label>
-        <input type="text" value="Budi">
-        <br>
-        <label>Tempat Kejadian: </label>
-        <input type="text" value="Jl. Tahapan Sukses IX">
-        <br>
-        <label>Deksripsi: </label>
-        <textarea>penanda jalan di trotoar untuk orang tuna netra rusak</textarea>
-        <br>
-        <button type="submit">Submit</button>
-    </form>
-</body>
+<div class="body">
+    <body>
+        <b>SahabatDifabel</b>
+        <div class="form">
+            <form>
+                <div class="h1">
+                    <h1 class="h1" name="edit" method="edit">Edit Laporan</h1>
+                </div>
+                <label class = "label" name = "nameLabel" >Nama: </label>
+                <input class = "input" name = "name" type="text" value="Budi">
+                <br>
+                <label class = "label" name = "addressLabel" >Tempat Kejadian: </label>
+                <input class = "input" name = "address" type="text" value="Jl. Tahapan Sukses IX">
+                <br>
+                <label class = "label" name = "descLabel" > Deksripsi: </label>
+                <textarea class = "input" name = "description" >penanda jalan di trotoar untuk orang tuna netra rusak</textarea>
+                <br>
+                <label class = "label" name = "dateLabel" > Tanggal: 19/04/2021 </label>
+                <br>
+                <label class="label">Ganti Foto: </label>
+                <input class = "button" type="file">
+                <div class="button">    
+                    <button class = "button" name = "submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</div>
 </html>

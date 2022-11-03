@@ -4,68 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #C6FAD6;
-        }
-        form {
-            border-radius: 15px 50px 30px 5px;
-            background-color: #FFFFD3;
-            background-size: 10%;
-            margin-top: auto;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: auto;
-            width: 600px;
-            height: 250px;
-        }
-        .h1{
-            text-align: center;
-            
-        }
-        .p {
-            text-align: center;
-            font-family: verdana;
-            font-size: 20px;
-        } 
-        .input {
-            outline: none;
-            text-align: center;
-        }
-        .label {
-            text-align: center;
-            font-family: verdana;
-            font-size: 20px;
-        }
-        button {
-            margin-bottom: 8px;
-        }
-        </style>
+    <link rel="stylesheet" href="royhan.css">
     <title>Login Akun</title>
 </head>
-<body>
-    <div class="container">
-        <div class="box">
-            <b>Login Akun</b>
-            <form>
-                <div class="h1">
-                    <h1>Selamat datang di SahabatDifabel</h1><a href="register.html">Sign up</a>
-                </div>
-                <div class="label">
-                    <label>Email: </label><br>
-                </div>
-                <div class="input">
-                    <input type="email" name="email" placeholder="yangpasti@gmail.com" required/><br><br>
-                </div>
-                <div class="label">
-                    <label>Password: </label><br>
-                </div>
-                <div class="input">
-                    <input type="password" name="password" placeholder="password" required/><br><br>
-                    <button type="submit" name="submit">Login </button>
-                </div>
-            </form>
+    <body>
+        <div class="container">
+            <div class="box">
+                <b class="label" style="color:white" > SahabatDifabel.</b>
+                <form>
+                    <div class="label">
+                        <div class="h1">
+                            <h1>Selamat datang di SahabatDifabel</h1>
+                        </div>
+                        <label>Email: </label><br>
+                    </div>
+                    <div >
+                    <input class="inputK" type="email" name="email" placeholder="yangpasti@gmail.com" required/><br><br>
+                    </div>
+                    <div >
+                        <label class="label">Password: </label><br>
+                    </div>
+                    <div class="input">
+                        <input class="inputK" type="password" name="password" placeholder="password" required/><br><br>
+                        <button type="submit" name="submit">Login </button>
+                    </div>
+                    <a>Don't Have an Account? </a><a href="register.html">Sign up</a>
+                </form>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>

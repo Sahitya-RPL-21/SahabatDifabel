@@ -1,81 +1,66 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #C6FAD6;
-        }
-        form {
-            border-radius: 15px 50px 30px 5px;
-            background-color: #FFFFD3;
-            background-size: 10%;
-            margin-top: auto;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: auto;
-            width: 600px;
-            height: 800px;
-        }
-        .h1{
-            text-align: center;
-            
-        }
-        .p {
-            text-align: center;
-            font-family: verdana;
-            font-size: 20px;
-        } 
-        .input {
-            outline: none;
-            text-align: center;
-        }
-        .label {
-            text-align: center;
-            font-family: verdana;
-            font-size: 20px;
-        }
-        button {
-            margin-bottom: 8px;
-        }
-        </style>
-    <title>Login Akun</title>
+    <link rel="stylesheet" href="royhan.css">
+    <title>Register Akun</title>
 </head>
 <body>
     <div class="container">
         <div class="box">
-            <b>Register Akun</b>
+            <b class="label" style="color:white" > SahabatDifabel.</b>
             <form>
                 <div class="h1">
-                    <h1>Buat akun </h1><a href="login.html">Have an account?</a>
+                    <h1>Registrasi Akun </h1>
                 </div>
+
                 <div class="label">
                     <label>Nama: </label><br>
                 </div>
                 <div class="input">
-                    <input type="text" name="text" placeholder="John Doe" required/><br><br>
+                    <input class="input" type="text" name="text" placeholder="John Doe" required/><br><br>
                 </div>
+
+                <div class="label">
+                    <label>Tanggal Lahir </label><br>
+                </div>
+                <div class="input">
+                    <input class="input" type="date" name="tgl" placeholder="11/11/2002" required/><br><br>
+                </div>
+
+                <div class="label">
+                    <label>No. Telp: </label><br>
+                </div>
+                <div class="input">
+                    <input class="input" type="tel" name="nomor" placeholder="08125351326" required/><br><br>
+                </div>
+
                 <div class="label">
                     <label>Email: </label><br>
                 </div>
                 <div class="input">
-                    <input type="email" name="email" placeholder="yangpasti@gmail.com" required/><br><br>
+                    <input class="input" type="email" name="email" placeholder="yangpasti@gmail.com" required/><br><br>
                 </div>
+
                 <div class="label">
                     <label>Password: </label><br>
                 </div>
                 <div class="input">
-                    <input type="password" name="password" placeholder="password" required/><br><br>
+                    <input class="input" type="password" name="password" placeholder="password" required/><br><br>
                 </div>
+
                 <div class="label">
                     <label>Confirmed Password: </label><br>
                 </div>
                 <div class="input">
-                    <input type="password" name="confirmpassword" placeholder="password" required/><br><br>
+                    <input class="input" type="password" name="confirmpassword" placeholder="password" required/><br><br>
                     <button type="submit" name="submit">Login </button>
                 </div>
+
+                <a>Have an Account? </a><a href="login.html">Login</a>
             </form>
         </div>
     </div>

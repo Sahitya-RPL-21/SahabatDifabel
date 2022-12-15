@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="middle">
-        <form name = "loginForm" method="POST" action="loginProcess.php">
+        <form name = "loginForm" method="POST" action="./processes/loginProcess.php">
             <div class="container">
                 <div class="top-container">
                     <h1 class="container-Title">Selamat Datang di SahabatDifabel</h1>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="inicss.css">
 
-    <title>Login SahabatDifabel</title>
+    <title>Register For SahabatDifabel</title>
 </head>
 <body>
     <div class="top">
@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="middle">
-        <form name = "loginForm" method="POST" action="registerProcess.php">
+        <form name = "registerForm" method="POST" action='./processes/registerProcess.php'>
             <div class="container">
                 <div class="top-container">
                     <h1 class="container-Title">Selamat Datang di SahabatDifabel</h1>

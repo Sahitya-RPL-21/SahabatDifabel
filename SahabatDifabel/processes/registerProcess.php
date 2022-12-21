@@ -12,4 +12,3 @@ echo "</pre>";
 
 header("Location: ../home.php");
 exit();
-?>

@@ -1,10 +1,14 @@
 <?php
 require('../classes/userClass.php');
 
-$logForm = $_POST;
+$email = $_POST['username'];
+$password = $_POST['password'];
 
+$user = new LoginClass($email, $password);
+
+$user->print();
+
+echo "<br>";
 echo "<pre>";
-var_dump($logForm);
+var_dump($user);
 echo "</pre>";
-
-?>

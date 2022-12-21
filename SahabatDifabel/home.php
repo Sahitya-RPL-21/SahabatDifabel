@@ -16,8 +16,7 @@
     </div>
     <div class="middle">
         <?php
-            include './processes/registerProcess.php';
-            
+            include '../processes/registerProcess.php';
         ?>
         <h1 class="container-Title">Welcome to SahabatDifabel</h1>
     </div>

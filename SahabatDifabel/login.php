@@ -23,7 +23,7 @@
                 </div>
                 <div class="mid-container">
                     <div class="input-box">
-                        <input type="text"     name="username" placeholder="Username" required/><br>
+                        <input type="text" name="username" placeholder="Username" required/><br>
                     </div>
                     <div class="input-box">
                         <input type="password" name="password" placeholder="Password" required/><br>

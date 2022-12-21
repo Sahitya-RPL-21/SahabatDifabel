@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iniapa.css">
+    <title>Create Laporan</title>
+</head>
+    <body>
+        <a class="nav-link" style="color:white;text-decoration: none;" href="home.html"> SahabatDifabel.</a>
+        <div class = "form">
+            <form>
+                <div class="h1">
+                    <h1 class="h1" name="createRep" method="createRep">Buat Laporan</h1>
+                </div>
+                <div class="input">
+                    <label class="label" >Nama: </label>
+                    <input class = "input" type="text" name="nama" value="Budi">
+                </div>
+                <br>
+                <div class="input">
+                    <label class="label">Tempat Kejadian: </label>
+                    <input class = "input" type="text" name="tkp">
+                </div>
+                <br>
+                <div class="input">
+                    <label class="label">Deksripsi: </label>
+                    <textarea class = "input" name="deskripsi" ></textarea>
+                </div>
+                <br>
+                <div class="button">
+                    <label class="label">Tambah Foto: </label>
+                    <input class = "button" type="file">
+                </div>
+                <br>
+                <div class="button">                
+                    <button class = "button" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

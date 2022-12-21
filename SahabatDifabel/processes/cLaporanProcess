@@ -1,0 +1,9 @@
+<?php
+require("../classes/laporanClass.php");
+$nama = $_POST['nama'];
+$tkp = $_POST['tkp'];
+$deskripsi = $_POST['deskripsi'];
+
+$laporan = new Laporan($nama, $tkp, $deskripsi);
+$laporan->submit();
+header("Location: ../index.php");

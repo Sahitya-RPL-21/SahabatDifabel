@@ -1,12 +1,8 @@
 <?php
 require('../classes/userClass.php');
+require('../classes/database.php');
 
-$email = $_POST['username'];
-$password = $_POST['password'];
-
-$user = new LoginClass($email, $password);
-
-$user->print();
+$logForm = $_POST;
 
 echo "<br>";
 echo "<pre>";

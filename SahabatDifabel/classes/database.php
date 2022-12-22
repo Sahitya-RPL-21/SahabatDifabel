@@ -17,11 +17,12 @@ class Database{
         return $statement->execute($parameters);
     }
 
-    function getUser($data){
-        $query = "SELECT username, password FROM `user` WHERE username=?,password=?";
+    function getUser($username,$password){
+        $query = "SELECT * FROM `user` WHERE username='$username' AND password='$password'";
         $statement = $this->db->prepare($query);
-        $parameters = [$data->getUsername(),$data->getPassword()];
-        return $statement->execute($parameters);
+        $statement->execute();
+        $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
     }
 }
 ?>

@@ -19,3 +19,4 @@ $database->createUser($user);
 
 header("Location: ../home.php");
 exit();
+?>

@@ -4,7 +4,12 @@ require('../classes/database.php');
 
 $logForm = $_POST;
 
-echo "<br>";
+$database = new Database("localhost","sahabatdifabel","root","");
+
+$exist = $database->getUser($logForm['username'],$logForm['password']);
+
 echo "<pre>";
-var_dump($user);
+var_dump($exist);
 echo "</pre>";
+
+?>

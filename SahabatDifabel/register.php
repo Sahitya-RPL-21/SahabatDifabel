@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="bottom-container">
-                    <button class="login-button" type="submit">Register</button>
+                    <button class="login-button" type="submit"></button>
                     </br>
                 </div>
                 <a class="a-button to-logreg" href="login.php">Login</a> 

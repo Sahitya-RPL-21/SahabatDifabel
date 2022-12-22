@@ -1,10 +1,7 @@
 <?php
 require('../classes/userClass.php');
-require('../classes/database.php');
 
 $regForm = $_POST;
-
-$database = new Database("localhost","sahabatdifabel","root","");
 
 $user = new User($regForm['username'],$regForm['password']);
 echo "Username: " .$user->getUsername()." is created with Password: " .$user->getPassword();
@@ -15,8 +12,8 @@ var_dump($user);
 echo "</pre>";
 */
 
-$database->createUser($user);
+$user->createUser();
 
-header("Location: ../home.php");
+header("Location: ../login.php");
 exit();
 ?>
